@@ -1,0 +1,19 @@
+﻿Css assignment flexbox
+Q1. Describe the main difference between` the CSS flexbox layout model and css grid layout model when would you choose to use over the other?
+Css flexbox-
+One-dimensionally" means Flexbox allows laying out box models in a row or column at a time. In other words, Flexbox cannot lay out box models in a row and column at the same time.Flexbox is sometimes called a flexible box layout module.
+Css grid-Two-dimensionally" means grid modules allow simultaneous laying out of box models in rows and columns.Use Flexbox if you only need to resize and reposition elements one-dimensionally.
+Choosing flexbox and css grid depends on  your specific layout requirement.
+You might choose flexbox when you need to arange items along in single axis,for example when creating a navigation bar,header footer layout within a container.
+You might choose css grid when you need to create more complex two dimensional layouts with rows and column.
+Q2.explain the role of following properties in the flexbox layout model-
+1.justify-content.
+2.align-item.
+3.gap
+4.flex-direction
+5.flex-wrap
+Ans-justify-content-It defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.
+2.Align-item-The align-item property defines the default behavior for how items are laid out along the cross axis.Imagine a horizontal flexbox layout. That horizontal flow is the main axis, so align-items is the alignment opposite that, on the vertical axis. Bear in mind that changes when the main axis changes, and the cross axis changes with it.
+3.gap-The gap property in CSS is a shorthand for row-gap and column-gap , specifying the size of gutters, which is the space between rows and columns within layouts.
+4.flex-direction-The flex-direction property is a sub-property of the flexible box layout model. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+5.flex-wrap- The flex-wrap property is a sub-property of the flexible box layout module. It defines whether the flex items are forced in a single line or can be flowed into multiple lines. If set to multiple lines, it also defines the cross-axis which determines the direction new lines
